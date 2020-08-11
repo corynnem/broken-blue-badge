@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+body {
+  background-image: url('./assets/zen.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
