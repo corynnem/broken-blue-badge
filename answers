@@ -1,0 +1,25 @@
+5 Errors
+
+1. App.js line 31
+what it is: fetchReslts()
+what it should be: fetchResults()
+
+2. App.js line 1 
+what it is: ueEffect
+what it should be": useEffect
+
+
+3. App.js line 43 
+what it is: strings{['Good Morning!!', 'Are you inspired?']}
+what it should be": strings={['Good Morning!!', 'Are you inspired?']}
+//This is a library I used however they should have no problem figuring out correct syntax 
+
+4. App.js line 55
+what it is:    width: '75vw, 
+what it should be":    width: '75vw', 
+
+
+5. App.js line 64/65
+what it is: no export default App
+what it should be: export default App;
+

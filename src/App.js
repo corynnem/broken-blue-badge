@@ -1,18 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, ueEffect} from 'react';
 import Typed from 'react-typed';
 import './App.css';
 
 function App() {
 
-  const [affirmations, setAffirmations] = useState()
+  const [affirmations, setAffirmations] = useState('')
 
   const affirmationStyles = {
     fontSize: '5vh',
   }
   
-
+// The url and APIKey are correct
   const fetchResults = (e) => {
-    // e.preventDefault();
     const url = 'https://quotes.rest/qod/inspire'
     const APIKey = 'Cm_985948'
 
@@ -41,7 +40,7 @@ function App() {
       </br>
        <Typed
           style={affirmationStyles}
-          strings={['Good Morning Mandy!!', 'Are you inspired?']}
+          strings{['Good Morning!!', 'Are you inspired?']}
           typeSpeed={100}
           />
           <br>
@@ -53,7 +52,7 @@ function App() {
         fontSize: '3vh', 
         padding: '10%', 
         backgroundColor: 'rgba(25, 25, 25, 0.7)', 
-        width: '75vw', 
+        width: '75vw, 
         marginLeft: '2%',
         color: 'white',
         fontFamily: 'Quicksand, sans-serif',
@@ -63,4 +62,4 @@ function App() {
   );
 }
 
-export default App;
+
