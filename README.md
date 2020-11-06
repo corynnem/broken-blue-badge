@@ -1,4 +1,3 @@
-This is a React app broken for the purpose of Eleven Fifty Academy students. 
 
 instructions: 
 
